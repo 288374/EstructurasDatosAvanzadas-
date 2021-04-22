@@ -114,6 +114,7 @@
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.Euler = new System.Windows.Forms.ToolStripButton();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
             this.menuStripMenuGeneral.SuspendLayout();
             this.toolStripMenuIcono.SuspendLayout();
             this.MenuArista.SuspendLayout();
@@ -731,7 +732,8 @@
             this.toolStripButton7,
             this.BusqueAbarcador,
             this.toolStripButton8,
-            this.Euler});
+            this.Euler,
+            this.toolStripButton9});
             this.toolStrip1.Location = new System.Drawing.Point(0, 63);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(32, 430);
@@ -747,7 +749,7 @@
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton2.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton2.Size = new System.Drawing.Size(29, 20);
             this.toolStripButton2.Text = "Matriz";
             this.toolStripButton2.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical90;
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
@@ -755,7 +757,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(21, 0);
+            this.toolStripLabel1.Size = new System.Drawing.Size(29, 0);
             // 
             // TiposDeGrafos
             // 
@@ -765,7 +767,7 @@
             this.TiposDeGrafos.Image = ((System.Drawing.Image)(resources.GetObject("TiposDeGrafos.Image")));
             this.TiposDeGrafos.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.TiposDeGrafos.Name = "TiposDeGrafos";
-            this.TiposDeGrafos.Size = new System.Drawing.Size(21, 20);
+            this.TiposDeGrafos.Size = new System.Drawing.Size(29, 20);
             this.TiposDeGrafos.Text = "T";
             this.TiposDeGrafos.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             this.TiposDeGrafos.ToolTipText = "Tipo de Grafo";
@@ -779,7 +781,7 @@
             this.GradoGrafos.Image = ((System.Drawing.Image)(resources.GetObject("GradoGrafos.Image")));
             this.GradoGrafos.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.GradoGrafos.Name = "GradoGrafos";
-            this.GradoGrafos.Size = new System.Drawing.Size(21, 20);
+            this.GradoGrafos.Size = new System.Drawing.Size(29, 20);
             this.GradoGrafos.Text = "GG";
             this.GradoGrafos.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             this.GradoGrafos.ToolTipText = "Grado de Nodos";
@@ -817,7 +819,7 @@
             this.BusqueAbarcador.Image = ((System.Drawing.Image)(resources.GetObject("BusqueAbarcador.Image")));
             this.BusqueAbarcador.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BusqueAbarcador.Name = "BusqueAbarcador";
-            this.BusqueAbarcador.Size = new System.Drawing.Size(21, 33);
+            this.BusqueAbarcador.Size = new System.Drawing.Size(29, 33);
             this.BusqueAbarcador.Text = "BAP";
             this.BusqueAbarcador.ToolTipText = "Busqueda Arbol Abarcador";
             this.BusqueAbarcador.Click += new System.EventHandler(this.BusqueAbarcador_Click);
@@ -829,7 +831,7 @@
             this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton8.Name = "toolStripButton8";
             this.toolStripButton8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.toolStripButton8.Size = new System.Drawing.Size(21, 50);
+            this.toolStripButton8.Size = new System.Drawing.Size(29, 50);
             this.toolStripButton8.Text = "Dijkstra";
             this.toolStripButton8.Click += new System.EventHandler(this.toolStripButton8_Click);
             // 
@@ -839,9 +841,19 @@
             this.Euler.Image = global::EditordeGrafos.Properties.Resources.caminoEuler;
             this.Euler.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Euler.Name = "Euler";
-            this.Euler.Size = new System.Drawing.Size(21, 20);
+            this.Euler.Size = new System.Drawing.Size(29, 20);
             this.Euler.Text = "toolStripButton9";
             this.Euler.Click += new System.EventHandler(this.Euler_Click);
+            // 
+            // toolStripButton9
+            // 
+            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
+            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton9.Name = "toolStripButton9";
+            this.toolStripButton9.Size = new System.Drawing.Size(29, 47);
+            this.toolStripButton9.Text = "FLOYD";
+            this.toolStripButton9.Click += new System.EventHandler(this.toolStripButton9_Click);
             // 
             // Editor
             // 
@@ -964,6 +976,7 @@
         private System.Windows.Forms.ToolStripButton BusqueAbarcador;
         private System.Windows.Forms.ToolStripButton toolStripButton8;
         private System.Windows.Forms.ToolStripButton Euler;
+        private System.Windows.Forms.ToolStripButton toolStripButton9;
     }
 }
 
